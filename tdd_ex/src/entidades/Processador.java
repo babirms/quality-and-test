@@ -15,7 +15,7 @@ public class Processador {
 
 	public Processador() {};
 	
-	public void realizaPagamentoFatura(Fatura fatura, List<Boleto> boletos) {
+	public List<Pagamento> realizaPagamentoFatura(Fatura fatura, List<Boleto> boletos) {
 		double valorPago = 0;
 		for (Boleto boleto : boletos) {
 			valorPago = valorPago + boleto.valorPago;
@@ -27,6 +27,7 @@ public class Processador {
 		else {
 			fatura.setStatus(StatusPagamento.PAGO);
 		}
+		return null;
 	}
 	
 	
