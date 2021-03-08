@@ -59,14 +59,24 @@ public class ProcessadorTest {
 	
 	@Test
 	@DisplayName("3 - Verifica se o pagamento de uma Fatura é válido a partir da sua data de validade")
-	void verificaFaturaValido() {
-
+	void verificaFaturaValida() {
+		// Cria fatura
+		Fatura fatura = new Fatura(new Date(2021,4,7) ,500, "Fernando Torres" );
+		// verifica se a fatura ainda está no prazo de validade para pagamento
+		boolean isValida = fatura.isValida();
+		
+		Assertions.assertEquals(true, isValida);
 	}
 	
 	@Test
 	@DisplayName("3 - Verifica se o pagamento de uma Fatura não é válido a partir da sua data de validade")
-	void verificaFaturaInvalido() {
-
+	void verificaFaturaInvalida() {
+		// Cria fatura
+		Fatura fatura = new Fatura(new Date(2021,4,7) ,500, "Fernando Torres" );
+		// verifica se a fatura ainda está no prazo de validade para pagamento
+		boolean isValida = fatura.isValida();
+		
+		Assertions.assertEquals(false, isValida);
 	}
 	
 	@Test

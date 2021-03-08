@@ -18,6 +18,10 @@ public class Fatura {
 	}
 
 	public Fatura() {}
+	
+	public boolean isValida() {
+		return false;
+	}
 
 	public Date getData() {
 		return data;
