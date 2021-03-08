@@ -9,7 +9,7 @@ public class Fatura {
 	public double valorTotal;
 	public String nomeCliente;
 	public StatusPagamento status;
-	
+
 	public Fatura(Date data, double valorTotal, String nomeCliente) {
 		super();
 		this.data = data;
@@ -17,10 +17,16 @@ public class Fatura {
 		this.nomeCliente = nomeCliente;
 	}
 
-	public Fatura() {}
-	
-	public boolean isValida() {
-		return false;
+	public Fatura() {
+	}
+
+	public boolean isValida(Date data) {
+		System.out.println(data.before(new Date()));
+		if (data.before(new Date()) || data == new Date()) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	public Date getData() {
@@ -54,7 +60,5 @@ public class Fatura {
 	public void setStatus(StatusPagamento status) {
 		this.status = status;
 	};
-	
-	
 
 }

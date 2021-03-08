@@ -61,38 +61,38 @@ public class ProcessadorTest {
 	@DisplayName("3 - Verifica se o pagamento de uma Fatura é válido a partir da sua data de validade")
 	void verificaFaturaValida() {
 		// Cria fatura
-		Fatura fatura = new Fatura(new Date(2021,4,7) ,500, "Fernando Torres" );
+		Fatura fatura = new Fatura(new Date() ,500, "Fernando Torres" );
 		// verifica se a fatura ainda está no prazo de validade para pagamento
-		boolean isValida = fatura.isValida();
+		boolean isValida = fatura.isValida(fatura.getData());
 		
 		Assertions.assertEquals(true, isValida);
 	}
 	
 	@Test
-	@DisplayName("3 - Verifica se o pagamento de uma Fatura não é válido a partir da sua data de validade")
+	@DisplayName("4 - Verifica se o pagamento de uma Fatura não é válido a partir da sua data de validade")
 	void verificaFaturaInvalida() {
 		// Cria fatura
 		Fatura fatura = new Fatura(new Date(2021,4,7) ,500, "Fernando Torres" );
 		// verifica se a fatura ainda está no prazo de validade para pagamento
-		boolean isValida = fatura.isValida();
+		boolean isValida = fatura.isValida(fatura.getData());
 		
 		Assertions.assertEquals(false, isValida);
 	}
 	
 	@Test
-	@DisplayName("4 - Verifica se um Pagamento foi criado ao realizar pagamento")
+	@DisplayName("5 - Verifica se um Pagamento foi criado ao realizar pagamento")
 	void criaUmPagamento() {
 
 	}
 	
 	@Test
-	@DisplayName("5 - Verifica se mais de um Pagamento foi criado ao realizar pagamento")
+	@DisplayName("6 - Verifica se mais de um Pagamento foi criado ao realizar pagamento")
 	void criaMaisPagamentos() {
 
 	}
 	
 	@Test
-	@DisplayName("6 - Verifica se nenhum Pagamento foi criado ao realizar pagamento")
+	@DisplayName("7 - Verifica se nenhum Pagamento foi criado ao realizar pagamento")
 	void naoCriaPagamentos() {
 
 	}
