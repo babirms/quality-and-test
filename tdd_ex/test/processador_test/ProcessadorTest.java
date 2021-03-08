@@ -61,8 +61,9 @@ public class ProcessadorTest {
 		// Cria fatura
 		Fatura fatura = new Fatura(new Date(), 500, "Fernando Torres");
 		// verifica se a fatura ainda está no prazo de validade para pagamento
-		boolean isValida = fatura.isValida(fatura.getData());
-
+		Date dataAtual = new Date();
+		boolean isValida = fatura.isValida(fatura.getData() );
+ 
 		Assertions.assertEquals(true, isValida);
 	}
 

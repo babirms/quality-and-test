@@ -21,10 +21,10 @@ public class Fatura {
 	}
 
 	public boolean isValida(Date data) {
-		System.out.println(data.before(new Date()));
-		if (data.before(new Date()) || data == new Date()) {
+		System.out.println(data);
+		if (data.before(new Date())) {
 			return true;
-		} else {
+		} else if (data == new Date()){ return true;}else {
 			return false;
 		}
 	}
