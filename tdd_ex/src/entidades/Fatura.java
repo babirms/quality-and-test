@@ -17,7 +17,39 @@ public class Fatura {
 		this.nomeCliente = nomeCliente;
 	}
 
-	public Fatura() {};
+	public Fatura() {}
+
+	public Date getData() {
+		return data;
+	}
+
+	public void setData(Date data) {
+		this.data = data;
+	}
+
+	public double getValorTotal() {
+		return valorTotal;
+	}
+
+	public void setValorTotal(double valorTotal) {
+		this.valorTotal = valorTotal;
+	}
+
+	public String getNomeCliente() {
+		return nomeCliente;
+	}
+
+	public void setNomeCliente(String nomeCliente) {
+		this.nomeCliente = nomeCliente;
+	}
+
+	public StatusPagamento getStatus() {
+		return status;
+	}
+
+	public void setStatus(StatusPagamento status) {
+		this.status = status;
+	};
 	
 	
 

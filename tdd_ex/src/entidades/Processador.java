@@ -13,6 +13,9 @@ public class Processador {
 
 	public Processador() {};
 	
+	public void realizaPagamentoFatura(Fatura fatura, List<Boleto> boletos) {
+	}
+	
 	
 
 }
