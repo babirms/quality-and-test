@@ -17,7 +17,7 @@ public class ProcessadorTest {
 
 
 	@Test
-	@DisplayName("1 - Verifica o status de pagamento de uma fatura que já foi paga.")
+	@DisplayName("1 - Verifica o status de pagamento de uma fatura que foi paga integralmente.")
 	void verificaFaturaPaga() {
 
 		// Cria fatura
@@ -56,27 +56,34 @@ public class ProcessadorTest {
 
 	}
 	
+	
 	@Test
-	@DisplayName("3 - Verifica se o valor de um boleto foi pago integralmente")
-	void verificaBoletoPagoIntegralmente() {
+	@DisplayName("3 - Verifica se o pagamento de uma Fatura é válido a partir da sua data de validade")
+	void verificaFaturaValido() {
 
 	}
 	
 	@Test
-	@DisplayName(" 4 - Verifica se o valor de um boleto não foi pago integralmente")
-	void verificaBoletoNaoPagoIntegralmente() {
+	@DisplayName("3 - Verifica se o pagamento de uma Fatura não é válido a partir da sua data de validade")
+	void verificaFaturaInvalido() {
 
 	}
 	
 	@Test
-	@DisplayName("5 - Verifica se o pagamento de um boleto é válido a partir da sua data de validade")
-	void verificaBoletoValido() {
+	@DisplayName("4 - Verifica se um Pagamento foi criado ao realizar pagamento")
+	void criaUmPagamento() {
 
 	}
 	
 	@Test
-	@DisplayName("6 - Verifica se o pagamento de um boleto não é válido a partir da sua data de validade")
-	void verificaBoletoInvalido() {
+	@DisplayName("5 - Verifica se mais de um Pagamento foi criado ao realizar pagamento")
+	void criaMaisPagamentos() {
+
+	}
+	
+	@Test
+	@DisplayName("6 - Verifica se nenhum Pagamento foi criado ao realizar pagamento")
+	void naoCriaPagamentos() {
 
 	}
 }
