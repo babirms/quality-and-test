@@ -14,6 +14,32 @@ public class Boleto {
 		this.valorPago = valorPago;
 	}
 
-	public Boleto() {};
+	public Boleto() {}
+
+	public String getCodigoBoleto() {
+		return codigoBoleto;
+	}
+
+	public void setCodigoBoleto(String codigoBoleto) {
+		this.codigoBoleto = codigoBoleto;
+	}
+
+	public Date getData() {
+		return data;
+	}
+
+	public void setData(Date data) {
+		this.data = data;
+	}
+
+	public double getValorPago() {
+		return valorPago;
+	}
+
+	public void setValorPago(double valorPago) {
+		this.valorPago = valorPago;
+	};
+	
+	
 
 }
