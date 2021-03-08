@@ -61,7 +61,6 @@ public class ProcessadorTest {
 		// Cria fatura
 		Fatura fatura = new Fatura(new Date(), 500, "Fernando Torres");
 		// verifica se a fatura ainda está no prazo de validade para pagamento
-		Date dataAtual = new Date();
 		boolean isValida = fatura.isValida(fatura.getData());
 
 		Assertions.assertEquals(true, isValida);
@@ -121,7 +120,7 @@ public class ProcessadorTest {
 	}
 
 	@Test
-	@DisplayName("8 - Verifica se nenhum Pagamento foi criado ao realizar pagamento")
+	@DisplayName("7 - Verifica se nenhum Pagamento foi criado ao realizar pagamento")
 	void naoCriaPagamentos() {
 		// Cria fatura
 		Fatura fatura = new Fatura(new Date(), 200, "Arlindo Fernandes");
@@ -137,7 +136,7 @@ public class ProcessadorTest {
 	}
 
 	@Test
-	@DisplayName("9 - Verifica status de uma fatura não paga e quantidade de pagamentos criados")
+	@DisplayName("8 - Verifica status de uma fatura não paga e quantidade de pagamentos criados")
 	void verificaPagamentosFaturaNaoPaga() {
 		// Cria fatura
 		Fatura fatura = new Fatura(new Date(), 2000, "Felipe Carvalho");
