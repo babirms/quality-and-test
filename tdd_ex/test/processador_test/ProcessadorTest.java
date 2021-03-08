@@ -72,7 +72,7 @@ public class ProcessadorTest {
 	@DisplayName("4 - Verifica se o pagamento de uma Fatura não é válido a partir da sua data de validade")
 	void verificaFaturaInvalida() {
 		// Cria fatura
-		Fatura fatura = new Fatura(new Date(2021,4,7) ,500, "Fernando Torres" );
+		Fatura fatura = new Fatura(new Date(2005,4,7) ,500, "Fernando Torres" );
 		// verifica se a fatura ainda está no prazo de validade para pagamento
 		boolean isValida = fatura.isValida(fatura.getData());
 		
