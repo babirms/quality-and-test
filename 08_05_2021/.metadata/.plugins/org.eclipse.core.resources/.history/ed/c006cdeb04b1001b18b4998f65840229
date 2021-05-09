@@ -1,0 +1,44 @@
+package com.fullteaching.backend.course;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+public class CourseTest {
+	
+	@Test
+	public void criaCourseVazio() {
+		Course course = new Course();
+		Assertions.assertEquals(0, course.getId());
+		
+	}
+	
+	@Test
+	public void criaCourse() {
+		
+	}
+
+	@Test
+	public void criaCourseComSets() {
+		
+	}
+	
+	@Test
+	public void testaEqualsComCoursesDiferentes() {
+		
+	}
+	
+	@Test
+	public void testaEqualsComCoursesIguais() {
+		
+	}
+	
+	@Test
+	public void testaEqualsComCoursesNull() {
+		
+	}
+	
+	@Test
+	public void testaToString() {
+		
+	}
+}

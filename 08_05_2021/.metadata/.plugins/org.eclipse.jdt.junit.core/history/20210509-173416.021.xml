@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CourseTest" project="full-teaching" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="com.fullteaching.backend.course.CourseTest" time="1.073" displayname="CourseTest" uniqueid="[engine:junit-jupiter]/[class:com.fullteaching.backend.course.CourseTest]">
+    <testcase name="criaCourseBasico" classname="com.fullteaching.backend.course.CourseTest" time="0.952" displayname="criaCourseBasico()" uniqueid="[engine:junit-jupiter]/[class:com.fullteaching.backend.course.CourseTest]/[method:criaCourseBasico()]"/>
+    <testcase name="testaEqualsComCoursesDiferentes" classname="com.fullteaching.backend.course.CourseTest" time="0.001" displayname="testaEqualsComCoursesDiferentes()" uniqueid="[engine:junit-jupiter]/[class:com.fullteaching.backend.course.CourseTest]/[method:testaEqualsComCoursesDiferentes()]"/>
+    <testcase name="testaEqualsComCoursesNull" classname="com.fullteaching.backend.course.CourseTest" time="0.002" displayname="testaEqualsComCoursesNull()" uniqueid="[engine:junit-jupiter]/[class:com.fullteaching.backend.course.CourseTest]/[method:testaEqualsComCoursesNull()]"/>
+    <testcase name="testaEqualsComCoursesIguais" classname="com.fullteaching.backend.course.CourseTest" time="0.001" displayname="testaEqualsComCoursesIguais()" uniqueid="[engine:junit-jupiter]/[class:com.fullteaching.backend.course.CourseTest]/[method:testaEqualsComCoursesIguais()]"/>
+    <testcase name="criaCourseComSets" classname="com.fullteaching.backend.course.CourseTest" time="0.103" displayname="criaCourseComSets()" uniqueid="[engine:junit-jupiter]/[class:com.fullteaching.backend.course.CourseTest]/[method:criaCourseComSets()]"/>
+    <testcase name="criaCourseCompleto" classname="com.fullteaching.backend.course.CourseTest" time="0.0" displayname="criaCourseCompleto()" uniqueid="[engine:junit-jupiter]/[class:com.fullteaching.backend.course.CourseTest]/[method:criaCourseCompleto()]"/>
+    <testcase name="criaCourseVazio" classname="com.fullteaching.backend.course.CourseTest" time="0.001" displayname="criaCourseVazio()" uniqueid="[engine:junit-jupiter]/[class:com.fullteaching.backend.course.CourseTest]/[method:criaCourseVazio()]"/>
+    <testcase name="testaToString" classname="com.fullteaching.backend.course.CourseTest" time="0.013" displayname="testaToString()" uniqueid="[engine:junit-jupiter]/[class:com.fullteaching.backend.course.CourseTest]/[method:testaToString()]"/>
+  </testsuite>
+</testrun>

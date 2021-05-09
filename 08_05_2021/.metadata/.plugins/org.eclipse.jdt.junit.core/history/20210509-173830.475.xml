@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CourseTest.testaEqualsComCoursesDiferentes" project="full-teaching" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.fullteaching.backend.course.CourseTest" time="0.991" displayname="CourseTest" uniqueid="[engine:junit-jupiter]/[class:com.fullteaching.backend.course.CourseTest]">
+    <testcase name="testaEqualsComCoursesDiferentes" classname="com.fullteaching.backend.course.CourseTest" time="0.991" displayname="testaEqualsComCoursesDiferentes()" uniqueid="[engine:junit-jupiter]/[class:com.fullteaching.backend.course.CourseTest]/[method:testaEqualsComCoursesDiferentes()]"/>
+  </testsuite>
+</testrun>

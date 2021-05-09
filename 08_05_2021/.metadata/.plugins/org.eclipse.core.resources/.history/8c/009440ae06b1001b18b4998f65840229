@@ -1,0 +1,115 @@
+package com.fullteaching.backend.course;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+import com.fullteaching.backend.coursedetails.CourseDetails;
+import com.fullteaching.backend.session.Session;
+import com.fullteaching.backend.user.User;
+
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import static org.mockito.Mockito.mock;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class CourseTest {
+	
+	@Test
+	public void criaCourseVazio() {
+		Course course = new Course();
+		Assertions.assertEquals(0, course.getId());
+		
+	}
+	
+	@Test
+	public void criaCourseBasico() {
+		User user = mock(User.class);
+		Course course = new Course("title", "imagem.png", user );
+		
+		Assertions.assertEquals("title", course.getTitle());
+		Assertions.assertEquals("imagem.png", course.getImage());
+		Assertions.assertEquals(user, course.getTeacher());
+		
+	}
+	
+	@Test
+	public void criaCourseCompleto() {
+		User user = mock(User.class);
+		CourseDetails courseDetails = mock(CourseDetails.class);
+		Course course = new Course("title", "imagem.png", user, courseDetails);
+		
+		Assertions.assertEquals("title", course.getTitle());
+		Assertions.assertEquals("imagem.png", course.getImage());
+		Assertions.assertEquals(user, course.getTeacher());
+		Assertions.assertEquals(courseDetails, course.getCourseDetails());
+
+		
+	}
+
+	@Test
+	public void criaCourseComSets() {
+		// mocks
+		long id = 1;
+		User user = mock(User.class);
+		CourseDetails courseDetails = mock(CourseDetails.class);
+		Set<Session> sessions =  new HashSet<Session>();
+		sessions.add(mock(Session.class));
+		Set<User> attenders =  new HashSet<User>();
+		attenders.add(mock(User.class));
+		
+		Course course = new Course();
+		course.setAttenders(attenders);
+		course.setCourseDetails(courseDetails);
+		course.setId(id);
+		course.setImage("imagem");
+		course.setSessions(sessions);
+		course.setTeacher(user);
+		course.setTitle("title");
+		
+		Assertions.assertEquals("title", course.getTitle());
+		Assertions.assertEquals("imagem", course.getImage());
+		Assertions.assertEquals(user, course.getTeacher());
+		Assertions.assertEquals(courseDetails, course.getCourseDetails());
+		Assertions.assertEquals(attenders, course.getAttenders());
+		Assertions.assertEquals(sessions, course.getSessions());
+		Assertions.assertEquals(id, course.getId());
+		
+		
+	}
+	
+	@Test
+	public void testaEqualsComCoursesDiferentes() {
+		User user = mock(User.class);
+		Course course = new Course("title", "imagem.png", user);
+		course.setId(1);
+		Course course2 = new Course("novo course", "foto.png", user);
+		course.setId(2);
+		assertFalse(course.equals(course2));
+		
+	}
+	
+	@Test
+	public void testaEqualsComCoursesIguais() {
+		User user = mock(User.class);
+		Course course = new Course("title", "imagem.png", user);
+		course.setId(1);
+		
+		assertTrue(course.equals(course));
+		
+	}
+	
+	@Test
+	public void testaEqualsComCoursesNull() {
+		User user = mock(User.class);
+		Course course = new Course("title", "imagem.png", user);
+		
+		assertFalse(course.equals(null));
+	}
+	
+	@Test
+	public void testaToString() {
+		
+	}
+}
