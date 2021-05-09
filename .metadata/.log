@@ -65,3 +65,6 @@ Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/vaniac
 
 !ENTRY org.eclipse.egit.ui 4 0 2021-05-08 22:22:21.176
 !MESSAGE Can't connect to any repository: https://github.com/vaniacourses/full-teaching.git (https://github.com/vaniacourses/full-teaching.git: git-receive-pack not permitted on 'https://github.com/vaniacourses/full-teaching.git/')
+
+!ENTRY org.eclipse.core.jobs 2 2 2021-05-08 22:23:46.963
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.jdt.internal.core.search.processing.JobManager$1ProgressJob
