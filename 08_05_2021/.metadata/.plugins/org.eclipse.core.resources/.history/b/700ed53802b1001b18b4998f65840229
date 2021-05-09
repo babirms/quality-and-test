@@ -1,0 +1,60 @@
+package com.fullteaching.backend.user;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
+import static org.mockito.Mockito.mock;
+
+public class UserTest {
+	
+	@Test
+	public void criaUserVazio() {
+		User user = new User();
+		Assertions.assertEquals(0, user.getId());
+		
+	}
+	
+	@Test
+	public void criaUser() {
+		User user = new User("nome", "senha", "n", "foto.png");
+		
+		Assertions.assertEquals("nome", user.getName());
+		Assertions.assertEquals("n", user.getNickName());
+		Assertions.assertEquals("foto.png", user.getPicture());
+		
+	}
+	
+	@Test
+	public void testaCriptoSenha() {
+		User user = new User("nome", "senha", "n", "foto.png");
+		String afterHash = new BCryptPasswordEncoder().encode("senha");
+		Assertions.assertEquals(afterHash, user.getPasswordHash());
+	}
+	
+	@Test
+	public void criaUserViaSets() {
+		
+	}
+	
+	@Test
+	public void testaEqualsComUsuariosDiferentes() {
+		
+	}
+	
+	@Test
+	public void testaEqualsComMesmoUsuario() {
+		
+	}
+	
+	@Test
+	public void testaHashCode() {
+		
+	}
+	
+	@Test
+	public void testaToString() {
+		
+	}
+
+}

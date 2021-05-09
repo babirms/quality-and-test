@@ -1,0 +1,112 @@
+package com.fullteaching.backend.user;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
+import com.fullteaching.backend.course.Course;
+
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import static org.mockito.Mockito.mock;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class UserTest {
+	
+	@Test
+	public void criaUserVazio() {
+		User user = new User();
+		Assertions.assertEquals(0, user.getId());
+		
+	}
+	
+	@Test
+	public void criaUser() {
+		User user = new User("nome", "senha", "n", "foto.png");
+		
+		Assertions.assertEquals("nome", user.getName());
+		Assertions.assertEquals("n", user.getNickName());
+		Assertions.assertEquals("foto.png", user.getPicture());
+		
+	}
+	
+	
+	@Test
+	public void criaUserViaSets() {
+		// mocks
+		long id = 22;
+		long date = 555;
+		
+		List<String> roles = new ArrayList<>();
+		roles.add("a");
+		
+		Set<Course> courses =  new HashSet<Course>();
+		courses.add(mock(Course.class));
+		
+		// cria user vazio
+		User user = new User();
+		
+		// seta os mocks no user
+		user.setCourses(courses);
+		user.setId(id);
+		user.setName("Nome");
+		user.setNickName("n");
+		user.setPasswordHash("teste");
+		user.setPicture("foto.png");
+		user.setRegistrationDate(date);
+		user.setRoles(roles);
+		
+		// verifica assertions
+		Assertions.assertEquals("Nome", user.getName());
+		Assertions.assertEquals("n", user.getNickName());
+		Assertions.assertEquals("foto.png", user.getPicture());
+		Assertions.assertEquals("teste", user.getPasswordHash());
+		Assertions.assertEquals(id, user.getId());
+		Assertions.assertEquals(date, user.getRegistrationDate());
+		Assertions.assertEquals(courses, user.getCourses());
+		Assertions.assertEquals(roles, user.getRoles());
+	}
+	
+	@Test
+	public void testaEqualsComUsuariosDiferentes() {
+		// user 1
+		User user = new User("nome", "senha", "n", "foto.png");
+		
+		// user 2
+		User user2 = new User("teste", "senha2", "t", "imagem.png");
+		
+		assertFalse(user.equals(user2));
+		
+	}
+	
+	@Test
+	public void testaUsuarioSemImagem() {
+		User user = new User("nome", "senha", "n", "");
+		Assertions.assertEquals("/../assets/images/default_session_image.png", user.getPicture());
+	}
+	
+	
+	@Test
+	public void testaEqualsComMesmoUsuario() {
+		User user = new User("nome", "senha", "n", "foto.png");
+		assertTrue(user.equals(user));
+	}
+	
+	@Test
+	public void testaHashCode() {
+		User user = new User("nome", "senha", "n", "foto.png");
+		Assertions.assertEquals("nome".hashCode(), user.hashCode());
+	}
+	
+	@Test
+	public void testaToString() {
+		User user = new User("nome", "senha", "n", "foto.png");
+		Assertions.assertEquals("n", user.toString());
+		
+	}
+
+}

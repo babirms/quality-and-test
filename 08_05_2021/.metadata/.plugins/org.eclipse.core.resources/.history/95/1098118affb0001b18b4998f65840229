@@ -1,0 +1,42 @@
+package com.fullteaching.backend.user;
+
+import org.junit.jupiter.api.Test;
+
+public class UserTest {
+	
+	@Test
+	public void criaUserVazio() {
+		
+	}
+	
+	@Test
+	public void criaUser() {
+		
+	}
+	
+	@Test
+	public void criaUserViaSets() {
+		
+	}
+	
+	@Test
+	public void testaEqualsComUsuariosDiferentes() {
+		
+	}
+	
+	@Test
+	public void testaEqualsComMesmoUsuario() {
+		
+	}
+	
+	@Test
+	public void testaHashCode() {
+		
+	}
+	
+	@Test
+	public void testaToString() {
+		
+	}
+
+}

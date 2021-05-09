@@ -1,0 +1,47 @@
+package com.fullteaching.backend.user;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import static org.mockito.Mockito.mock;
+
+public class UserTest {
+	
+	@Test
+	public void criaUserVazio() {
+		User user = new User();
+		Assertions.assertEquals(0, user.getId());
+		
+	}
+	
+	@Test
+	public void criaUser() {
+		User user = new User("nome", "senha", "n", "foto.png" );
+		
+	}
+	
+	@Test
+	public void criaUserViaSets() {
+		
+	}
+	
+	@Test
+	public void testaEqualsComUsuariosDiferentes() {
+		
+	}
+	
+	@Test
+	public void testaEqualsComMesmoUsuario() {
+		
+	}
+	
+	@Test
+	public void testaHashCode() {
+		
+	}
+	
+	@Test
+	public void testaToString() {
+		
+	}
+
+}
