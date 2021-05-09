@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="UserTest.criaUserViaSets" project="full-teaching" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.fullteaching.backend.user.UserTest" time="0.987" displayname="UserTest" uniqueid="[engine:junit-jupiter]/[class:com.fullteaching.backend.user.UserTest]">
-    <testcase name="criaUserViaSets" classname="com.fullteaching.backend.user.UserTest" time="0.987" displayname="criaUserViaSets()" uniqueid="[engine:junit-jupiter]/[class:com.fullteaching.backend.user.UserTest]/[method:criaUserViaSets()]"/>
-  </testsuite>
-</testrun>
