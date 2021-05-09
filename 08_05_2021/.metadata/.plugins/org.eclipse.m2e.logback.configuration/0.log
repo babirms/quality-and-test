@@ -1,0 +1,149 @@
+2021-05-08 22:24:56,161 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-08 22:26:25,648 [Worker-15: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fullteaching:full-teaching:0.6-SNAPSHOT @ E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\pom.xml.
+2021-05-08 22:26:28,450 [Worker-15: Importing Maven projects] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.googlecode.json-simple:json-simple:jar:${version.json-simple} is missing, no dependency information available
+2021-05-08 22:26:32,607 [Worker-15: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /full-teaching/src/main/java
+2021-05-08 22:26:32,608 [Worker-15: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /full-teaching/src/main/resources
+2021-05-08 22:26:32,609 [Worker-15: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /full-teaching/src/main/resources
+2021-05-08 22:26:32,611 [Worker-15: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /full-teaching/src/test/java
+2021-05-08 22:26:35,090 [Worker-15: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 14 sec
+2021-05-08 22:26:46,899 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.googlecode.json-simple:json-simple:jar:${version.json-simple} is missing, no dependency information available
+2021-05-08 22:26:47,760 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:26:47,767 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-08 22:26:47,794 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-08 22:26:48,726 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:26:48,726 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-08 22:27:10,029 [Worker-23: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fullteaching:full-teaching:0.6-SNAPSHOT @ E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\pom.xml.
+2021-05-08 22:27:11,427 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.googlecode.json-simple:json-simple:jar:${version.json-simple} is missing, no dependency information available
+2021-05-08 22:27:12,668 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:27:12,669 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-08 22:27:12,670 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-08 22:27:12,674 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:27:12,674 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-08 22:33:40,839 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.googlecode.json-simple:json-simple:jar:${version.json-simple} is missing, no dependency information available
+2021-05-08 22:33:41,328 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:33:41,328 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-08 22:33:41,328 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-08 22:33:41,330 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:33:41,330 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-08 22:33:47,955 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:33:47,960 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-08 22:33:47,989 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-08 22:33:48,007 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:33:48,007 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-08 22:33:49,223 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:33:49,223 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-08 22:33:49,223 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-08 22:33:49,236 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:33:49,238 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-08 22:34:14,894 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:34:14,897 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-08 22:34:14,929 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-08 22:34:14,937 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:34:14,937 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-08 22:35:10,834 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:35:10,839 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-08 22:35:10,847 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-08 22:35:10,860 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:35:10,862 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-08 22:35:28,735 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:35:28,738 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-08 22:35:28,768 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-08 22:35:28,782 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:35:28,783 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-08 22:35:35,251 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:35:35,253 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-08 22:35:35,258 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-08 22:35:35,265 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:35:35,265 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-08 22:36:33,034 [Worker-31: Launching Executing test in E__UFF_Qualidade e Teste_quality-and-test_08_05_2021_full-teaching] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching
+2021-05-08 22:36:33,037 [Worker-31: Launching Executing test in E__UFF_Qualidade e Teste_quality-and-test_08_05_2021_full-teaching] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2021-05-08 22:36:46,316 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:36:46,317 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-08 22:36:46,321 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-08 22:36:46,326 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:36:46,326 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-08 22:43:10,567 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:43:10,569 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-08 22:43:10,575 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-08 22:43:10,581 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:43:10,581 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-08 22:43:15,192 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:43:15,193 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-08 22:43:15,197 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-08 22:43:15,201 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:43:15,201 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-08 22:43:53,980 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:43:53,982 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-08 22:43:53,988 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-08 22:43:53,993 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:43:53,993 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-08 22:44:11,944 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:44:11,946 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-08 22:44:11,950 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-08 22:44:11,956 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-08 22:44:11,956 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-09 16:07:02,329 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:07:02,415 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-09 16:07:02,480 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-09 16:07:02,514 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:07:02,515 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-09 16:09:38,292 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:09:38,296 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-09 16:09:38,304 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-09 16:09:38,314 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:09:38,314 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-09 16:12:05,190 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:12:05,191 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-09 16:12:05,195 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-09 16:12:05,201 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:12:05,201 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-09 16:14:23,564 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:14:23,567 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-09 16:14:23,569 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-09 16:14:23,574 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:14:23,574 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-09 16:14:50,018 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:14:50,020 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-09 16:14:50,023 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-09 16:14:50,027 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:14:50,027 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-09 16:15:39,955 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:15:39,957 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-09 16:15:39,960 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-09 16:15:39,964 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:15:39,964 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-09 16:16:20,677 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:16:20,679 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-09 16:16:20,681 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-09 16:16:20,686 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:16:20,686 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-09 16:18:53,419 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:18:53,421 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-09 16:18:53,425 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-09 16:18:53,431 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:18:53,432 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-09 16:25:23,709 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:25:23,712 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-09 16:25:23,714 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-09 16:25:23,718 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:25:23,719 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-09 16:28:28,349 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:28:28,351 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-09 16:28:28,354 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-09 16:28:28,358 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:28:28,358 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-09 16:30:00,519 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:30:00,521 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-09 16:30:00,524 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-09 16:30:00,528 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:30:00,528 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-09 16:31:15,575 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:31:15,577 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-09 16:31:15,581 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-09 16:31:15,586 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:31:15,586 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
+2021-05-09 16:32:17,162 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:32:17,164 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-09 16:32:17,167 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-05-09 16:32:17,171 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-09 16:32:17,171 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\UFF\Qualidade e Teste\quality-and-test\08_05_2021\full-teaching\src\test\resources
